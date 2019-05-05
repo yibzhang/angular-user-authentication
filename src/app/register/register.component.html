@@ -1,14 +1,14 @@
 <p>
 register works!
 </p>
-<form (ngSubmit)="onSubmit()">
+<form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
   <div>
     <label for="username">Username</label>
-    <input type="text" required>
+    <input type="text" name="username" ngModel required>
   </div>
   <div>
     <label for="password">Password</label>
-    <input type="password" required>
+    <input type="password" name="password" ngModel required>
   </div>
   <button type="submit">Submit</button>
 </form>
