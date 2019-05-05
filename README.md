@@ -1,3 +1,4 @@
 # angular-user-authentication
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-user-authentication)
+Create a user login system with angular.
+Try out service interceptor.
