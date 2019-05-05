@@ -22,4 +22,5 @@ export class RegisterComponent implements OnInit {
     this.userService.getUsers().subscribe(users => this.users = users);
   }
 
+  onSubmit(){}
 }
