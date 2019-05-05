@@ -21,7 +21,10 @@ const appRoutes = [
 @NgModule({
   imports:      [ BrowserModule, 
                   FormsModule,
-                  RouterModule.forRoot(appRoutes) ],
+                  RouterModule.forRoot(appRoutes),
+                  HttpClientModule,
+                  HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation: false}),
+                ],
   declarations: [ AppComponent, LoginComponent, RegisterComponent ],
   bootstrap:    [ AppComponent ]
 })
