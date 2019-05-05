@@ -12,3 +12,9 @@ register works!
   </div>
   <button type="submit">Submit</button>
 </form>
+
+<div *ngIf="users">
+  <div *ngFor="let user of users">
+    <li>id:{{user.id}} | username:{{user.username}}</li>
+  </div>
+</div>
