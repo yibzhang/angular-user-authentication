@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from '_services/in-memory-data.service';
+import { InMemoryDataService } from './_services/in-memory-data.service';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
